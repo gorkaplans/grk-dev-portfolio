@@ -1,4 +1,4 @@
-import React, { useState }from 'react'; 
+import React, { useState, useEffect }from 'react'; 
 
 import'./Header.scss'
 
@@ -6,10 +6,16 @@ import'./Header.scss'
 
 
 const Header = () => {
- 
+
     return (
-        <h1 className="text-light">Header</h1>
-    
+        <>
+        <div className="mx-auto w-full flex pt-8 pb-4 border-b border-solid border-current">
+            <h1 className="text-light mr-auto">Gorka Plans</h1>
+            <h1 className="text-light mr-4">Resume</h1>
+            <h1 className="text-light">Contact</h1>
+        </div>
+        
+        </>    
     ) } 
- 
-  export default Header;
+  
+  export default Header
