@@ -11,22 +11,22 @@ const Abstract = () => {
             </div>
             <div className="w-full md:w-5/12 flex justify-between">
                 <ul className="text-extralight p-10 flex flex-col">
-                    <l1 className="mb-3">- Html</l1>
-                    <l1 className="mb-3">- css</l1>
-                    <l1 className="mb-3">- SASS</l1>
-                    <l1>- JS</l1>
+                    <li className="mb-3">- Html</li>
+                    <li className="mb-3">- css</li>
+                    <li className="mb-3">- SASS</li>
+                    <li>- JS</li>
                 </ul>
                 <ul className="text-extralight p-10 flex flex-col">
-                    <l1 className="mb-3">- Html</l1>
-                    <l1 className="mb-3">- css</l1>
-                    <l1 className="mb-3">- SASS</l1>
-                    <l1>- JS</l1>
+                    <li className="mb-3">- Html</li>
+                    <li className="mb-3">- css</li>
+                    <li className="mb-3">- SASS</li>
+                    <li>- JS</li>
                 </ul>
                 <ul className="text-extralight p-10 flex flex-col">
-                    <l1 className="mb-3">- Html</l1>
-                    <l1 className="mb-3">- css</l1>
-                    <l1 className="mb-3">- SASS</l1>
-                    <l1>- JS</l1>
+                    <li className="mb-3">- Html</li>
+                    <li className="mb-3">- css</li>
+                    <li className="mb-3">- SASS</li>
+                    <li>- JS</li>
                 </ul>
             </div>
         </div>

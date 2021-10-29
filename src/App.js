@@ -1,6 +1,8 @@
 import Header from './components/header'; 
 import Hero from './components/hero'
 import Abstract from './components/abstract';
+import Projects from './components/projects'
+import JobsProjects from './components/jobsProjects';
 
 
 function App() {
@@ -10,6 +12,8 @@ function App() {
         <Header></Header>
         <Hero></Hero>
         <Abstract></Abstract>
+        <Projects></Projects>
+        <JobsProjects></JobsProjects>
       </div>
     </div>
   );
