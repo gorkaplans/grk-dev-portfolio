@@ -10,19 +10,19 @@ const Abstract = () => {
                 </p>
             </div>
             <div className="w-full md:w-5/12 flex justify-between">
-                <ul className="text-extralight p-10 flex flex-col">
+                <ul className="text-extralight py-10 md:px-10 flex flex-col">
                     <li className="mb-3">- Html</li>
                     <li className="mb-3">- css</li>
                     <li className="mb-3">- SASS</li>
                     <li>- JS</li>
                 </ul>
-                <ul className="text-extralight p-10 flex flex-col">
+                <ul className="text-extralight pt-10  flex flex-col">
                     <li className="mb-3">- Html</li>
                     <li className="mb-3">- css</li>
                     <li className="mb-3">- SASS</li>
                     <li>- JS</li>
                 </ul>
-                <ul className="text-extralight p-10 flex flex-col">
+                <ul className="text-extralight pt-10 flex flex-col">
                     <li className="mb-3">- Html</li>
                     <li className="mb-3">- css</li>
                     <li className="mb-3">- SASS</li>

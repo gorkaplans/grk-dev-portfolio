@@ -50,14 +50,14 @@ const Projects = () => {
 
     return (
         <div className="mx-auto w-full flex flex-col border-b border-solid border-current md:flex-row">
-            <div className="w-full md:w-2/12 border-b md:border-b-0 md:border-r border-solid border-current p-6">
+            <div className="w-full md:w-2/12 border-b md:border-b-0 md:border-r border-solid border-current py-6 md:p-6">
                 <p className="text-medium ">
                     Some Projects                  
                 </p>
             </div>
-            <div className="w-full p-6 ">
+            <div className="w-full md:p-6 ">
                 {page.map((project, i)=> (
-                    <span key={i} className="w-full grid grid-cols-3 border-b border-solid border-current p-8 hover:bg-gray-200">
+                    <a href={project.link} target="_blank" rel="noreferrer" key={i} className="w-full grid grid-cols-3 border-b border-solid border-current py-6 md:p-8">
                          <h1 className="text-light mr-auto">
                             {project.title}
                         </h1>
@@ -67,7 +67,7 @@ const Projects = () => {
                         <p className="text-extralight justify-self-end">
                             {project.year}
                         </p>
-        </span>
+        </a>
             ))}
             </div>
         </div>

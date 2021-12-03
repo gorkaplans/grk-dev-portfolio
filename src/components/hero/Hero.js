@@ -3,8 +3,8 @@ import './Hero.scss'
 
 const Hero = () => {
     return (       
-        <div className="mx-auto w-full flex pt-4 pb-4 border-b border-solid border-current">
-            <div className="w-2/12 mr-2 overflow-hidden">
+        <div className="mx-auto w-full flex flex-col md:flex-row pt-4 pb-4 border-b border-solid border-current">
+            <div className="w-full md:w-2/12 mr-2 overflow-hidden">
                 <h1 className="text-hi w-full"> HI!</h1>
             </div>
             <div className="w-10/12 pt-1 overflow-hidden md:pt-3">
