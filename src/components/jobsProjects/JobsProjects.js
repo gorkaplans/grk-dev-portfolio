@@ -67,7 +67,7 @@ const JobsProjects = () => {
                         <p className="text-extralight justify-self-end">
                             {project.year}
                         </p>
-        </a>
+                    </a>
             ))}
             </div>
         </div>

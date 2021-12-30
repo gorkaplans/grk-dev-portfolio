@@ -1,0 +1,6 @@
+@import '../../styles.scss';  
+
+input:checked ~ .dot {
+  transform: translateX(100%);
+  background-color: $beige;
+}

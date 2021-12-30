@@ -60,14 +60,17 @@ table {
 $beige:#F0ECE2;
 $black:#1B1919;
 
+
+
 $transition1: all 0.3s ease-in-out;
+
+
 
 .text-extralight{
     font-family: 'inter', sans-serif;
     font-size: 12pt;
     font-weight: 200;
     text-decoration: none;
-    color: $black;
     text-align: start;
 }
 
@@ -76,7 +79,6 @@ $transition1: all 0.3s ease-in-out;
     font-size: 12pt;
     font-weight: 300;
     text-decoration: none;
-    color: $black;
     text-align: start;
 }
 
@@ -85,7 +87,6 @@ $transition1: all 0.3s ease-in-out;
     font-size: 12pt;
     font-weight: 500;
     text-decoration: none;
-    color: $black;
     text-align: start;
 }
 
