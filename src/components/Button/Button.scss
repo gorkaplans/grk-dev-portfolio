@@ -2,5 +2,54 @@
 
 input:checked ~ .dot {
   transform: translateX(100%);
-  background-color: $beige;
+  background-color: var(--toggle);
 }
+
+.CheckBoxWrapper{
+  position: relative;
+  margin-right: 1em;
+
+  .CheckBox{
+    opacity: 0;
+    z-index: 1;
+    border-radius: 15px;
+    width: 42px;
+    height: 26px;
+    &:checked + { .CheckBoxLabel{ 
+      background: var(--text-primary);
+      &::after {
+        content: "";
+        display: block;
+        border-radius: 50%;
+        width: 18px;
+        height: 18px;
+        margin-left: 21px;
+        transition: 0.2s;}
+     
+      }}
+  }; 
+
+  .CheckBoxLabel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 42px;
+    height: 26px;
+    border-radius: 15px;
+    background: var(--text-primary);
+    cursor: pointer;
+    &::after {
+      content: "";
+      display: block;
+      border-radius: 50%;
+      width: 18px;
+      height: 18px;
+      margin: 3px;
+      background: var(--background);
+      transition: 0.2s;
+    }
+  }
+}
+
+
+

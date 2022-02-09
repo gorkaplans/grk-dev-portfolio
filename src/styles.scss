@@ -56,10 +56,24 @@ table {
     text-decoration: none;
 }
 
+:root {
+    --background: #E5E3D1;
+    --text-primary: #262423;
+    --toggle: #262423;
+  }
 
-$beige:#F0ECE2;
-$black:#1B1919;
+    [data-theme='dark'] {
+    --background: #0E3142;
+    --text-primary: #D4A68F;
+    --toggle: #0E3142;
+  }
+  
 
+  .App{
+    background-color: var(--background);
+    color: var(--text-primary) ;
+    min-height: 100vh;
+  }
 
 
 $transition1: all 0.3s ease-in-out;
