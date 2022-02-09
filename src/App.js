@@ -6,8 +6,6 @@ import Footer from "./components/footer";
 
 import { useState, useEffect } from "react";
 
-export { default as Themes } from "./components/theme/themes";
-
 function App() {
   const [theme, setTheme] = useState("light");
 
