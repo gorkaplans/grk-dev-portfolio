@@ -1,2 +1,22 @@
-@import '../../styles.scss';
+@import "../../styles.scss";
 
+.text-some-projects {
+  font-family: "inter", sans-serif;
+  font-size: 14pt;
+  font-weight: 500;
+  text-decoration: none;
+  text-align: start;
+}
+
+
+.project {
+  transition: all 0.2s ease;
+
+  &:hover {
+    box-shadow: -5px 5px 0px #000000;
+    -webkit-transform: translate(55px 5px);
+    -o-transform: translate(55px 5px);
+    transform: translate(55px 5px);
+    -moz-transform: translate(55px 5px);
+  }
+}

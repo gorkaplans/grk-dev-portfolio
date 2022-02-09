@@ -1,28 +1,6 @@
 @import '../../styles.scss';
 
-
-.text-hi{
-    font-family: 'inter', sans-serif;
-    font-size: 10vw;
-    font-weight: 500;
-    text-decoration: none;
-    color: $black;
-    text-align: start;
-}
-
-.text-title1{
-    font-family: 'inter', sans-serif;
-    font-size: 4vw;
-    font-weight: 200;
-    text-decoration: none;
-    color: $black;
-    text-align: start;
-}
-.text-title2{
-    font-family: 'inter', sans-serif;
-    font-size: 2.5vw;
-    font-weight: 200;
-    text-decoration: none;
-    color: $black;
-    text-align: start;
+.circle{
+    list-style: circle;
+    list-style-position: inside
 }

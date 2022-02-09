@@ -50,18 +50,18 @@ const Projects = () => {
 
     return (
         <div className="mx-auto w-full flex flex-col border-b border-solid border-current md:flex-row">
-            <div className="w-full md:w-2/12 border-b md:border-b-0 md:border-r border-solid border-current py-6 md:p-6">
-                <p className="text-medium ">
+            <div className="w-full md:w-2/12 border-b md:border-b-0 md:border-r border-solid border-current py-6 md:pt-6">
+                <p className="text-some-projects">
                     Some Projects                  
                 </p>
             </div>
-            <div className="w-full md:p-6 ">
+            <div className="w-full pt-6 md:p-6">
                 {page.map((project, i)=> (
-                    <a href={project.link} target="_blank" rel="noreferrer" key={i} className="w-full grid grid-cols-3 border-b border-solid border-current py-6 md:p-8">
-                         <h1 className="text-light mr-auto">
+                    <a href={project.link} target="_blank" rel="noreferrer" key={i} className="project w-full grid grid-cols-3 border border-solid border-current mb-6 p-3 md:py-6 md:p-8">
+                         <h1 className="text-medium mr-auto col-span-3 mb-2 lg:col-span-1">
                             {project.title}
                         </h1>
-                        <p className="text-extralight mr-auto">
+                        <p className="text-extralight mr-auto col-span-2 lg:col-span-1">
                             {project.technologies}
                         </p>
                         <p className="text-extralight justify-self-end">

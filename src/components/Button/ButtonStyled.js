@@ -1,15 +1,8 @@
-import React, {useState} from "react";
 import styled from "styled-components";
 
 
 
-
 const ButtonStyled = ( props ) => {
-/* const [position, setPosition] = useState(false)
-
-const changePosition = () => {
-  setPosition(!position)
-} */
 
 const changeMode = () => { 
   if (props.theme === 'light') {
@@ -32,6 +25,7 @@ const changeMode = () => {
 
 const CheckBoxWrapper = styled.div`
   position: relative;
+  margin-right: 1em;
 `;
 const CheckBoxLabel = styled.label`
   position: absolute;
@@ -40,7 +34,7 @@ const CheckBoxLabel = styled.label`
   width: 42px;
   height: 26px;
   border-radius: 15px;
-  background: #bebebe;
+  background: ${({theme}) => theme.txtcolor};
   cursor: pointer;
   &::after {
     content: "";
@@ -49,8 +43,7 @@ const CheckBoxLabel = styled.label`
     width: 18px;
     height: 18px;
     margin: 3px;
-    background: #ffffff;
-    box-shadow: 1px 3px 3px 1px rgba(0, 0, 0, 0.2);
+    background: ${({theme}) => theme.bgcolor};
     transition: 0.2s;
   }
 `;
@@ -61,7 +54,7 @@ const CheckBox = styled.input`
   width: 42px;
   height: 26px;
   &:checked + ${CheckBoxLabel} {
-    background: #4fbe79;
+    background: ${({theme}) => theme.txtcolor};
     &::after {
       content: "";
       display: block;
@@ -72,6 +65,7 @@ const CheckBox = styled.input`
       transition: 0.2s;
     }
   }
-`;
+`; 
+
 
 export default ButtonStyled;

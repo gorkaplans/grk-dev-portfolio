@@ -3,10 +3,13 @@
 
 .text-hi{
     font-family: 'inter', sans-serif;
-    font-size: 10vw;
+    font-size: 15vw;
     font-weight: 500;
     text-decoration: none;
     text-align: start;
+    transform: translate(-10px)
+
+    
 }
 
 .text-title1{
@@ -15,6 +18,8 @@
     font-weight: 200;
     text-decoration: none;
     text-align: start;
+    line-height: 1em;
+    line-height: initial;
 }
 .text-title2{
     font-family: 'inter', sans-serif;
@@ -23,3 +28,21 @@
     text-decoration: none;
     text-align: start;
 }
+
+.person-img {
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .name{
+      border-bottom: solid 1px;
+      
+  }
+
+  @media (max-width: 900px){
+      .text-hi{
+        transform: translate(0px)
+
+      }
+  }
