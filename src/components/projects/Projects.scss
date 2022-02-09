@@ -13,7 +13,7 @@
   transition: all 0.2s ease;
 
   &:hover {
-    box-shadow: -5px 5px 0px #000000;
+    box-shadow: -5px 5px 0px var(--text-primary);
     -webkit-transform: translate(55px 5px);
     -o-transform: translate(55px 5px);
     transform: translate(55px 5px);
